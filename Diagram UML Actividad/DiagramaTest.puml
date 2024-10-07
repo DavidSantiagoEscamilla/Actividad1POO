@@ -1,0 +1,22 @@
+class Parque {
+    -Nombre: String
+    -Ubicacion: String
+    -Superficie: Double
+}
+
+class Guardaparque {
+    -Nombre: String
+    -Antiguedad: Integer
+    -Especialidad: String
+}
+
+class Atraccion {
+    -Nombre: String
+    -Tipo: String
+    -Precio: Double
+}
+
+' Relaciones
+Parque "1" -- "*" Atraccion : Tener
+Parque "1" -- "*" Guardaparque : Emplear
+Guardaparque "1" -- "*" Atraccion : Vigilar
