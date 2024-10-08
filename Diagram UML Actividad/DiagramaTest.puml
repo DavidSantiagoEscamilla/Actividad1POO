@@ -17,6 +17,6 @@ class Atraccion {
 }
 
 ' Relaciones
-Parque "1" -- "*" Atraccion : Tener
-Parque "1" -- "*" Guardaparque : Emplear
-Guardaparque "1" -- "*" Atraccion : Vigilar
+Parque "1" -- "*" Atraccion : Tiene
+Parque "1" -- "*" Guardaparque : Emplea
+Guardaparque "1" -- "*" Atraccion : Vigila
