@@ -1,16 +1,19 @@
-class Parque {
+class Parque 
+{
     -Nombre: String
     -Ubicacion: String
     -Superficie: Double
 }
 
-class Guardaparque {
+class Guardaparque 
+{
     -Nombre: String
     -Antiguedad: Integer
     -Especialidad: String
 }
 
-class Atraccion {
+class Atraccion 
+{
     -Nombre: String
     -Tipo: String
     -Precio: Double
